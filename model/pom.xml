@@ -1,13 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>net.etherbunny</groupId>
-    <artifactId>webdbt</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <groupId>net.etherbunny.webdbt</groupId>
-  <artifactId>model</artifactId>
-  <version>${project.parent.version}</version>
-  <name>WebDBT Model Classes</name>
-  <description>The things that are persisted, displayed, edited...</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.etherbunny.webdbt</groupId>
+        <artifactId>webdbt</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>webdbt-model</artifactId>
+    <name>WebDBT Model Classes</name>
+    <description>The things that are persisted, displayed, edited...</description>
 </project>
